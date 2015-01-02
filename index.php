@@ -66,7 +66,10 @@ $members = array(
 
 // params init
 $parent = 'kunti';
-$search = 'ratna';
+$search = 'didik';
+
+echo 'Data Jaringan = '.$parent.'<br>';
+echo 'Data Pencarian = '.$search.'<br>';
 
 if($DFS::in_array_r($search, $members)) {
 	
